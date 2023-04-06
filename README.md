@@ -14,19 +14,20 @@ The script will check for dependencies and install them if needed.
 
 1. Clone the repository:
 
-`
+
 
 ```bash
 git clone https://github.com/yourusername/Video-Quality-Metrics.git
 cd Video-Quality-Metrics  `
 
-Make sure you have the VMAF model file vmaf_v0.6.1.pkl in the repository folder. You can download it from here.
+Make sure you have the VMAF model file vmaf_v0.6.1.pkl in the repository folder. 
+You can download it from https://github.com/Netflix/vmaf/tree/master/model
 
 ## Run the script with the source and converted video file paths:
-`
+
 bash
 Copy code
-python check_vmaf_psnr.py <source_video> <converted_video>`
+python check_vmaf_psnr.py <source_video> <converted_video>
 
 Replace <source_video> and <converted_video> with the file paths of the source and converted videos, respectively.
 
