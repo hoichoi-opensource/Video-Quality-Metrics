@@ -17,7 +17,7 @@ The script will check for dependencies and install them if needed.
 
 
 ```bash
-git clone https://github.com/yourusername/Video-Quality-Metrics.git
+git clone https://github.com/hoichoi-opensource/Video-Quality-Metrics.git
 cd Video-Quality-Metrics  `
 
 Make sure you have the VMAF model file vmaf_v0.6.1.pkl in the repository folder. 
