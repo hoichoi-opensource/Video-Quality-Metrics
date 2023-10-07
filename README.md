@@ -25,10 +25,10 @@ You can download it from https://github.com/Netflix/vmaf/tree/master/model
 
 ## Run the script with the source and converted video file paths:
 
-bash
-Copy code
-python check_vmaf_psnr.py <source_video> <converted_video>
+```bash
 
+python check_vmaf_psnr.py <source_video> <converted_video>
+`
 Replace <source_video> and <converted_video> with the file paths of the source and converted videos, respectively.
 
 The script will print the VMAF and PSNR values for the given video files.
